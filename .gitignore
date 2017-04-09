@@ -35,3 +35,6 @@
 # VI swap files
 *.swp
 
+# Misc Files 
+myos
+*.iso

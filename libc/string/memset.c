@@ -1,4 +1,4 @@
-#include "../include/sring.h"
+#include "../include/string.h"
 
 void* memset(void* bufptr, int value, size_t size)
 {

@@ -3,13 +3,13 @@
 /* Check c is upper case */
 int isupper(char c)
 {
-    return (c >= 'A' && c <= 'Z)
+    return (c >= 'A' && c <= 'Z');
 }
 
 /* Check c is lower case */
 int islower(char c)
 {
-    return (c >= 'a' && c <= 'z)
+    return (c >= 'a' && c <= 'z');
 }
 
 /* Check c is an alpha char */
@@ -21,7 +21,7 @@ int isalpha(char c)
 /* Check c is a white space character */
 int isspace(char c)
 {
-    return (c == '' || c =='\t' || c == '\n' || c == '\12');
+    return (c == ' ' || c =='\t' || c == '\n' || c == '\12');
 }
 
 /* Check c is is a digit */

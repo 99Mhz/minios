@@ -6,9 +6,8 @@ void kernel_early(void)
 }
 
 __attribute__((noreturn))
-int main(void)
+void main(void)
 {
-    printf("Hello OS!");
+    printf("Hello OS expanded!");
     while(1) { }
-    return 0;
 }
